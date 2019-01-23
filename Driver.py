@@ -85,7 +85,6 @@ def problem3():
         N = int(input("Choose an input N to make prime number of N bits (must be positive, larger input required for encryption of longer messages): "))
     while(K<=0):
         K = int(input("Choose K amount of times you want it tested for primality (must be positive): "))
-    #M = int(input("Choose integer M to be encrypted: "))
     M = (input("Choose string or integer M to be encrypted: "))
     try:
         M = int(M)
